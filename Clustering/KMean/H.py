@@ -1,8 +1,8 @@
 import numpy as np
 
-Initial = np.loadtxt("C:\Users\Test\Dropbox\UNLV\Python\workspace\Hidden Markov Model\KMean\Matrix.txt", delimiter=' ', dtype=np.float)
+Initial = np.loadtxt(".\Matrix.txt", delimiter=' ', dtype=np.float)
 
-Matrix = np.loadtxt("C:\Users\Test\Dropbox\UNLV\Python\workspace\Hidden Markov Model\KMean\Matrix.txt", delimiter=' ', dtype=np.float)
+Matrix = np.loadtxt(".\Matrix.txt", delimiter=' ', dtype=np.float)
 
 
 minVal = np.amin(Matrix[np.nonzero(Matrix)])
