@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-Initial = np.loadtxt("C:\Users\esmaeilz\Dropbox\UNLV\Python\workspace\Hidden Markov Model\KMean\Matrix.txt", delimiter=' ', dtype=np.float)
+Initial = np.loadtxt(".\Matrix.txt", delimiter=' ', dtype=np.float)
 df2 = pd.DataFrame(data = Initial, index = [1,2,3,4,5,6,7], columns=[1,2,3,4,5,6,7])
 df = pd.DataFrame(data = Initial, index = [1,2,3,4,5,6,7], columns=[1,2,3,4,5,6,7])
 print df
