@@ -7,18 +7,6 @@ import random
 import subprocess
 
 """
-This is a pure Python implementation of the K-Means Clustering algorithmn. The
-original can be found here:
-http://pandoricweb.tumblr.com/post/8646701677/python-implementation-of-the-k-means-clustering
-I have refactored the code and added comments to aid in readability.
-After reading through this code you should understand clearly how K-means works.
-If not, feel free to email me with questions and suggestions. (iandanforth at
-gmail)
-This script specifically avoids using numpy or other more obscure libraries. It
-is meant to be *clear* not fast.
-I have also added integration with the plot.ly plotting service. If you put in
-your (free) plot.ly credentials below, it will automatically plot the discovered
-clusters and their centroids.
 To use plotly integration you will need to:
 1. Get a username/key from www.plot.ly/api and enter them below
 2. Install the plotly module: pip install plotly
